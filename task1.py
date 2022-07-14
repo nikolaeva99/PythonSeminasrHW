@@ -63,7 +63,7 @@ else:
 Пример:
 - A (3,6); B (2,1) -> 5,09
 - A (7,-5); B (1,-1) -> 7,21'''
-
+'''
 xA = int(input('Input Ax coordinate: '))
 yA = int(input('Input Ay coordinate: '))
 xB = int(input('Input Bx coordinate: '))
@@ -72,3 +72,4 @@ yB = int(input('Input By coordinate: '))
 from math import sqrt
 result = round(sqrt((xB-xA)*(xB-xA)+(yB-yA)*(yB-yA)), 3)
 print(result)
+'''
