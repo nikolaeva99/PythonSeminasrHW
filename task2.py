@@ -4,6 +4,24 @@
 6782 -> 23
 0,56 -> 11
 '''
+#Первое решение
+# stroka = input()
+# sum = 0
+# for i in stroka:
+#     if i != '.':
+#         sum = sum + int(i)
+# print(sum)
+
+
+#Второе решение
+# stroka = input()
+# sum = 0
+# for i in stroka:
+#     if i.isdigit():
+#         sum = sum + int(i)
+# print(sum)
+
+
 '''
 number = float(input('Input number: '))
 result = int(0)
